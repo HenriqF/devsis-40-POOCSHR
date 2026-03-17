@@ -7,9 +7,6 @@ from objetos.tesoura import Tesoura
 
 lista_objetos = [Papel("vermelho"), Pedra("vermelho"), Tesoura("prata"), Pedra("preta")]
 
-
-
-
 @api.route("/", methods=["GET"])
 def get_main():
     return jsonify("funcionando."), 200
@@ -46,7 +43,6 @@ def nova_coisa():
 
     print(lista_objetos)
     return jsonify(nova_coisa), 201
-
 
 
 

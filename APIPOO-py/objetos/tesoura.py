@@ -1,4 +1,3 @@
-from abc import *
 from .objeto import Objeto
 
 class Tesoura(Objeto):
