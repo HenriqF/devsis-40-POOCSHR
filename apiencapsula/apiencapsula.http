@@ -1,0 +1,6 @@
+@apiencapsula_HostAddress = http://localhost:5225
+
+GET {{apiencapsula_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
