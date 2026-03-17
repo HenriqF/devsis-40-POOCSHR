@@ -1,0 +1,24 @@
+GET http://localhost:5000/
+
+
+###
+
+GET http://localhost:5000/cor/vermelho
+
+###
+
+GET http://localhost:5000/cor/prata
+
+###
+
+GET http://localhost:5000/cor/roxo
+
+###
+
+POST http://localhost:5000/adicionar
+Content-Type: application/json
+
+{
+  "tipo": "papel",
+  "cor": "roxo"
+}
