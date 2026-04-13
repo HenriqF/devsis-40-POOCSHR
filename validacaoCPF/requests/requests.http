@@ -1,0 +1,37 @@
+GET http://localhost:5000/
+
+
+###
+
+GET http://localhost:5000/pessoa/35601211590
+
+###
+
+
+POST http://localhost:5000/adicionar
+Content-Type: application/json
+
+{
+  "nome": "pedro",
+  "cpf": "22702913369"
+}
+
+###
+
+POST http://localhost:5000/adicionar
+Content-Type: application/json
+
+{
+  "nome": "melao",
+  "cpf": "35601211590"
+}
+
+
+###
+POST http://localhost:5000/adicionar
+Content-Type: application/json
+
+{
+  "nome": "faker",
+  "cpf": "10485730280"
+}
